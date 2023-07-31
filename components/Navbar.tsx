@@ -16,7 +16,7 @@ const font = Poppins({
 
 const Navbar = () => {
   return (
-    <div className="fixed w-full border-b border-primary/10 z-20 flex justify-between items-center py-2 px-4 bg-secondary">
+    <div className="fixed w-full border-b border-primary/10 z-20 flex justify-between items-center py-2 px-4 bg-secondary h-16">
       <div className="flex items-center w-full justify-between">
         <Menu className="md:hidden block" />
         <Link href="/">
